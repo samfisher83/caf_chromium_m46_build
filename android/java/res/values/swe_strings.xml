@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of The Linux Foundation nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" >
+
+    <string name="offline_readings">"Offline Readings"</string>
+    <string name="offline_readings_snackbar_saved">"Page Saved for Offline Reading"</string>
+    <string name="offline_readings_empty">"No pages saved for offline reading"</string>
+    <string name="menu_save_offline_page">"Save for offline reading"</string>
+    <string name="menu_load_live_page_for_offline_page">"Go live"</string>
+    <string name="tooltip_favicon_change_search_engine">"Touch here to change the search engine."</string>
+    <string name="tooltip_favicon_change_site_settings">"Touch here to change preferences for the current website, including content filtering."</string>
+    <string name="tooltip_favicon_content_blocking_info">"Content filtering is active. Touch here for more information."</string>
+    <string name="tooltip_favicon_site_integrity_check">"Content filtering is active. If there are issues on this website, touch this icon and try disabling content filtering."</string>
+    <string name="infobar_permission_allow_24hrs">"Allow for 24 hours"</string>
+    <string name="infobar_permission_remember">"Remember preference"</string>
+    <string name="website_settings_webdefender_disabled_count">"You are not protected against %1$s third party tracking domains."</string>
+    <string name="block_screen_observers_title">"Block screen observers"</string>
+    <string name="block_screen_observers_summary">"Allow or block browser screen capturing from other applications"</string>
+    <string name="most_visited">"Most Frequent"</string>
+    <string name="default_homepage">"Default Page"</string>
+    <string name="most_visited_sites_homepage">"Most Visited Sites"</string>
+    <string name="other_homepage">"Other"</string>
+    <string name="blank_homepage">"Blank Page"</string>
+    <string name="current_page_homepage">"Current Page"</string>
+    <string name="website_settings_smartprotect_title">"Smart Protect"</string>
+    <string name="background_audio_title">"Background audio"</string>
+    <string name="background_audio_reload_tip_text">"Enables video content to continue to playing audio when webpage is not in foreground."</string>
+    <string name="website_settings_webdefender_privacy_meter_title">"Privacy Meter"</string>
+    <string name="website_settings_webdefender_brief_message">"Traceable information will not be leaked to %1$s connected domains."</string>
+    <string name="website_settings_webdefender_tracking_vectors">"Tracking vectors on connected domains:"</string>
+    <string name="website_settings_webdefender_cookie">"Cookie Storage"</string>
+    <string name="website_settings_webdefender_fingerprint">"Fingerprinting"</string>
+    <string name="website_settings_webdefender_html5">"HTML5 Storage"</string>
+    <string name="website_settings_webdefender_font_enum">"Font Enumeration"</string>
+    <string name="website_settings_webdefender_vector_allow">"Allow"</string>
+    <string name="website_settings_webdefender_vector_strip">"Strip vectors and connect"</string>
+    <string name="website_settings_webdefender_vector_not_connect">"Do not connect"</string>
+    <string name="website_settings_webdefender_vector_system_default">"Decide for me"</string>
+    <string name="website_settings_webdefender_tracking_list">"Connected domain settings:"</string>
+    <string name="website_settings_webdefender_tracking_not_detected">"not detected"</string>
+    <string name="website_settings_security_title">"Security Information"</string>
+    <string name="website_settings_webrefiner_title">"Web Refiner"</string>
+    <string name="website_settings_webrefiner_enabled">"Content blocking is enabled"</string>
+    <string name="website_settings_webrefiner_disabled">"Content blocking is disabled"</string>
+    <string name="website_settings_webdefender_title">"Web Defender"</string>
+    <string name="website_settings_webdefender_enabled">"Web Defender is enabled"</string>
+    <string name="website_settings_webdefender_disabled">"You are not protected against third party tracking domains."</string>
+    <string name="website_settings_category_webrefiner_enabled_recommended">"Block ads and known malware and trackers"</string>
+    <string name="website_settings_category_webdefender_enabled">"When enabled, the browser uses machine learning to monitor the websites you visit and prevents them from collecting your private information."</string>
+    <string name="webdefender">"Web Defender"</string>
+    <string name="powersave_mode_title">"Power saving mode"</string>
+    <string name="powersave_mode_tip_text">"Power saving mode setting will potentially affect user experience in order to improve battery life for your browser"</string>
+    <string name="powersave_mode_turn_off_title">"Disable Power-saving mode"</string>
+    <string name="powersave_mode_turn_on_title">"Enable Power-saving mode"</string>
+    <string name="powersave_mode_opt_out_confirmation">"Power saving improvements will be turned off."</string>
+    <string name="powersave_mode_opt_in_confirmation">"Power saving improvements will be turned on."</string>
+
+    <string name="night_mode_reload_tip_text">"Use Night mode to make browsing easier on your eyes in the dark."</string>
+    <string name="night_mode_title">"Night mode"</string>
+    <string name="website_settings_category_enabled">"Enabled"</string>
+    <string name="website_settings_category_disabled">"Disabled"</string>
+    <string name="webrefiner_ads">"advertisement"</string>
+    <string name="webrefiner_ads_plural">"advertisements"</string>
+    <string name="webrefiner_trackers">"tracker"</string>
+    <string name="webrefiner_trackers_plural">"trackers"</string>
+    <string name="webrefiner_malware">"malware"</string>
+    <string name="webrefiner_one_message">"We blocked %s."</string>
+    <string name="webrefiner_two_message">"We blocked %1$s and %2$s."</string>
+    <string name="webrefiner_three_message">"We blocked %1$s, %2$s and %3$s."</string>
+    <string name="ssl_warning">"Site\'s SSL certificate has warnings"</string>
+    <string name="ssl_error">"Site has an invalid SSL certificate"</string>
+    <string name="ssl_secure">"Site\'s SSL certificate is valid. Communication is encrypted and identity is verified"</string>
+    <string name="prefs_privacy_security">"Privacy &amp; security"</string>
+
+    <!-- DownloadInfoBar -->
+    <string name="swe_download_infobar_text">"Do you want to download ^1 to ^2?"</string>
+    <string name="swe_downloadpath_not_enough_space">"Not enough space for download"</string>
+
+    <string name="swe_media_msg">"Please select how to handle media file"</string>
+    <string name="ntp_custom_home">"Home"</string>
+
+    <!-- Carrier customization specific strings -->
+    <string name="swe_exit">"Exit"</string>
+    <string name="swe_exit_dialog_title">"Exit browser"</string>
+    <string name="swe_exit_dialog_msg">"Do you want to exit the browser?"</string>
+    <string name="swe_minimize">"Minimize"</string>
+    <string name="swe_quit">"Quit"</string>
+
+    <!-- Wifi Access Point Check -->
+    <string name="swe_action_not_found">"Action Not Found"</string>
+    <string name="swe_wifi_select_message">"Wifi Detected!\n Please Select Wifi Access Point for the Browser"</string>
+
+
+    <!-- Do not translate -->
+
+    <string name="default_homepage_url" translatable="false">""</string>
+
+    <!-- Update Notification -->
+    <string name="swe_update" translatable="false">"SWE browser update available"</string>
+    <string name="swe_update_msg" translatable="false">"\"Version: \""</string>
+    <!-- Feedback strings -->
+    <string name="swe_feedback_subject" translatable="false">"Browser Feedback"</string>
+    <string name="swe_feedback_msg" translatable="false">"Version : %1$s
+        &lt;br&gt;&lt;/br&gt;Build Hash: %2$s
+        &lt;br&gt;&lt;/br&gt;Tab Title: %3$s
+        &lt;br&gt;&lt;/br&gt;Tab URL: %4$s
+        &lt;br&gt;&lt;/br&gt;Enter your feedback here.."</string>
+    <!-- Download path selection feature - intent -->
+    <string name="swe_downloadpath_activity_intent" translatable="false" tools:ignore="UnusedResources">""</string>
+    <!-- Download path selection feature - selection string for activity result -->
+    <string name="swe_downloadpath_activity_result_selection" translatable="false" tools:ignore="UnusedResources">""</string>
+    <string name="version_url" translatable="false">"chrome://version"</string>
+    <string name="swe_def_extra_http_headers" translatable="false" tools:ignore="UnusedResources">""</string>
+    <string name="swe_def_ua_override" translatable="false" tools:ignore="UnusedResources">""</string>
+
+    <string name="swe_def_action_wifi_selection_data_connections" translatable="false">""</string>
+    <string name="swe_def_intent_pick_network" translatable="false">""</string>
+    <string name="swe_drm_file_unsupported" tools:ignore="UnusedResources">Uploading DRM files is not supported!</string>
+    <string name="swe_estore_homepage" translatable="false" tools:ignore="UnusedResources"></string>
+    <string name="swe_download_estore_app" tools:ignore="UnusedResources">Estore app does not exist, please download and install it.</string>
+
+</resources>
